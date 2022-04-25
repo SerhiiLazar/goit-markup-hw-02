@@ -1,40 +1,111 @@
-    /*Color*/
+/*Color*/
 :root {
     --brand-color: #2F303A;
     --font-color: #F5F4FA;
-    --logo-color: #2196F3;
+    --active: #2196F3;
     --black: #000000;
+    --favorit: #212121;
+    --text: #757575;
+    --white: #ffffff; 
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: var(--black);
+    color: var(--favorit);
 }
 
-    /*header*/
-
-.header {
-    display: flex;
-}
-.navigation {
-    display: flex;
-    align-items: center;
-}
-.logo>span {
-    color: var(--logo-color);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
-.logo {
-    color: var(--black);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-}
-.nav-list {
-    display: flex;
-    justify-content: space-between;
+ul {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: var(--favorit);
+}
+
+/* header */
+.header {}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+
+.logo>span {
+    color: var(--active);
+}
+
+.header-list,
+.header-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--active);
+    cursor: pointer;
+}
+
+.contact-link,
+.contact-link {
+    color: var(--text);
+}
+
+/* service */
+
+.service {
+    background-color: var(--brand-color);
+    padding: 200px 200px;
+}
+
+.service-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.service-btn {
+    display: block;
+    padding: 10px 32px;
+    margin:0 auto;
+    color: var(--white);
+    background-color: var(--active);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* inform */
+
+.inform-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.inform-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text);
+}
+
+/*  */
