@@ -26,7 +26,6 @@ a {
 }
 
 /* header */
-.header {}
 
 .logo {
     font-family: 'Raleway';
@@ -67,7 +66,7 @@ a {
 
 .service {
     background-color: var(--brand-color);
-    padding: 200px 200px;
+    padding: 200px 0 200px 0;
 }
 
 .service-title {
@@ -112,7 +111,6 @@ a {
 
 /* process */
 
-.process {}
 
 .subtitle {
     text-align: center;
@@ -169,10 +167,6 @@ a {
 .footer {
     padding: 60px 60px;
     background-color: var(--brand-color);
-
-}
-
-.footer-content {
 
 }
 
