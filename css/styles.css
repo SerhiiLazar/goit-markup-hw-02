@@ -12,6 +12,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     color: var(--favorit);
     padding: 0;
 }
@@ -30,21 +31,20 @@ a {
 .logo {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: var(--black);
+    color: var(--active);
 }
 
-.logo>span {
-    color: var(--active);
+.header-logo {
+    color: var(--black);
 }
 
 .header-list,
 .header-contact {
     font-weight: 500;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
@@ -66,7 +66,6 @@ a {
 
 .service {
     background-color: var(--brand-color);
-    padding: 200px 0 200px 0;
 }
 
 .service-title {
@@ -80,9 +79,7 @@ a {
 }
 
 .service-btn {
-    display: block;
     padding: 10px 32px;
-    margin: 0 auto;
     color: var(--white);
     background-color: var(--active);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -93,7 +90,6 @@ a {
 
 .inform-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -101,8 +97,7 @@ a {
 }
 
 .inform-text {
-    font-weight: 400;
-    font-size: 14px;
+    /* font-weight: 400; */
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--text);
@@ -120,29 +115,16 @@ a {
     letter-spacing: 0.03em;
 }
 
-.process-list {
-    display: flex;
-    justify-content: space-around;
-
-}
 
 /* team */
 
 .team {
-    padding: 94px 94px;
     background-color: var(--font-color);
 }
 
-.team-list {
-    display: flex;
-    justify-content: space-around;
-}
-
-
 .team-item {
-    margin-top: 50px;
     text-align: center;
-    background: #FFFFFF;
+    background: var(--white);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -155,7 +137,7 @@ a {
 }
 
 .team-text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
@@ -163,6 +145,10 @@ a {
 }
 
 /* footer */
+
+.footer-logo {
+    color: var(--white);
+}
 
 .footer {
     padding: 60px 60px;
@@ -172,8 +158,7 @@ a {
 
 .footer-text {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    /* font-weight: 400; */
     line-height: 24px;
     height: 0;
     letter-spacing: 0.03em;
@@ -183,10 +168,14 @@ a {
 
 .footer-link {
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
+    /* font-weight: 400; */
     line-height: 24px;
     padding-top: 9px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     }
+
+
+                    /* PORTFOLIO */
+
+    /*  */
